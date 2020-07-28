@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+            font-family: 'Spoqa Han Sans', 'Sans-serif';
+            color: #454f5d;
+        }
+
+        .outer {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .fontB{
+            font-size: 50px;
+        }
+        .fontBold{
+            font-weight: bold;
+        }
+        .side {
+            width: 45%;
+        }
+
+        .leftSide{
+            margin-left: 10vw;
+        }
+        .rightSide{
+            margin-right: 10vw;
+        }
+        .bankBox {
+            height: 8vh;
+            
+            border-radius: 10px;
+            margin-left: 8vw;
+            margin-right: 5vw;
+            box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        .bankAndLogo {
+            display: flex;
+            align-items: center;
+
+        }
+        .bankImg{
+            width: 20%;
+        }
+
+        .link {
+            color: #3182f6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="side leftSide">
+            <h1>
+                <div class='fontB'>계좌 관리는 번거롭지만<br> 토스는 쉽습니다</div>
+            </h1>
+            
+            <div class="font">간편한 인증 한 번으로 <br>소유한 계좌를 한 번에 관리할 수 있습니다.</div>
+            <br>
+            <a class='link' href="#">자세히 알아보기 ></a>
+        </div>
+        <div class="side rightSide">
+
+            <div class="bankBox">
+                <div class="bankAndLogo">
+                    <img class='bankImg' src="./bank_logo/logo_1.png">
+                    &nbsp 국민은행
+                </div>
+                <span class="fontBold">2,134,000 원</span>
+            </div>
+            <div class="bankBox">
+                <div class="bankAndLogo">
+
+                    <img class='bankImg' src="./bank_logo/logo_3.png">
+                    &nbsp 신한은행
+                </div>
+                <span class="fontBold">1,126,600 원</span>
+                
+            </div>
+            <div class="bankBox">
+                <div class="bankAndLogo">
+
+                    <img class='bankImg' src="./bank_logo/logo_4.png">
+                    &nbsp 하나은행
+                </div>
+                <span class="fontBold">684,000 원</span>
+            </div>
+            <div class="bankBox">
+                <div class="bankAndLogo">
+
+                    <img class='bankImg' src="./bank_logo/logo_5.png">
+                    &nbsp 우리은행
+                </div>
+                <span class="fontBold">339,050 원</span>
+            </div>
+            <div class="bankBox">
+                <div class="bankAndLogo">
+
+                    <img class='bankImg' src="./bank_logo/logo_2.png">
+                    &nbsp NH 농협은행
+                </div>
+                <span class="fontBold">1,412,000 원</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
